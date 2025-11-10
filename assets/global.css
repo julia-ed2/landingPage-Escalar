@@ -1,0 +1,213 @@
+
+:root {
+            --azul: #00476C;
+            --azul-claro: #007b9e;
+            --cinza: #d9d9d9;
+            --branco: #ffffff;
+            --preto: #000000;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+            background-color: var(--cinza);
+        }
+
+        h1{
+            font-size: 4rem;
+        }
+
+        h2{
+            font-size: 2rem;
+            color: var(--azul);
+            font-weight: 700;
+        }
+
+        h3{
+            color: var(--azul);
+            font-weight: 700;
+        }
+
+        h4{
+            color: var(--azul);
+            font-weight: 700!important;
+        }
+
+        h5{
+            color: var(--azul);
+            font-weight: 600;
+        }
+
+        p{
+            font-size: 1.1rem;
+        }
+
+        .navbar {
+            background-color: var(--azul) !important;
+        }
+
+        .nav-link {
+            color: var(--branco) !important;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .nav-link:hover {
+            color: var(--azul-claro) !important;
+        }
+
+        /* Hero section */
+        .cabecalho {
+            background: linear-gradient(100deg, var(--azul), var(--azul-claro));
+            color: var(--branco);
+            padding: 80px 5%;
+        }
+
+        .btn-saibaMais {
+            background-color: var(--branco);
+            color: var(--azul);
+            border: none;
+            padding: 10px 30px;
+            font-weight: 600;
+            border-radius: 20px;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+
+        .btn-saibaMais:hover {
+            background-color: var(--azul-claro);
+            color: var(--branco);
+        }
+
+        .btn-saibaMais2{
+            background-color: var(--azul);
+            color: var(--branco);
+            border: none;
+            padding: 10px 30px;
+            font-weight: 600;
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+
+        .btn-saibaMais2:hover{
+            background-color: var(--azul-claro);
+            color: var(--branco);
+        }
+
+        .lista{
+            list-style:circle;
+        }
+
+        .lista li:hover{
+            font-weight:600;
+            cursor: default;
+            color: var(--azul);
+        }
+
+
+        /* Ícones iniciais */
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--azul);
+            margin-bottom: 10px;
+        }
+
+        /* Seções */
+        h5.cor-azul {
+            color: var(--azul);
+            font-weight: 600;
+        }
+
+        .container-azul {
+            background-color: var(--azul);
+            color: var(--branco);
+            border-radius: 10px;
+            padding: 50px;
+        }
+
+        .evidencia{
+            transition: transform .5s easy;
+        }
+
+        .evidencia:hover{
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            transform: scale(1.1);
+        }
+
+        /* Planos */
+        .container-branco {
+            background-color: var(--branco);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            transition: all 0.3s;
+            height: 100%;
+        }
+
+        .container-branco:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .container-branco h5 {
+            color: var(--azul);
+            font-weight: 600;
+        }
+
+        .container-branco ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .container-branco ul li::before {
+            content: "✔ ";
+            color: var(--azul);
+            font-weight: bold;
+        }
+
+        .container-branco ul .branco::before {
+            content: "✔ ";
+            color: var(--branco);
+            font-weight: bold;
+        }
+
+        .maisPopular{
+            background-color: var(--azul);
+            color: var(--branco);
+        }
+
+        /* Formulário */
+        .container-form {
+            background-color: var(--cinza);
+            border-radius: 12px;
+            padding: 30px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--azul);
+            color: var(--cinza);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+
+
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .cabecalho {
+                text-align: center;
+                padding: 60px 20px;
+            }
+
+            .img-cabecalho {
+                width: 90%;
+                margin-top: 30px;
+            }
+
+            .container-azul {
+                padding: 30px 20px;
+            }
+        }

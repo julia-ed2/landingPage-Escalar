@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalar - Gestão de Escalas e Plantões</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/global.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white" href="#">
+                <img src="assets/img/escalar-removebg-preview.png" alt="Escalar" width="120">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li><a class="nav-link" href="#planos">Planos</a></li>
+                    <li><a class="nav-link" href="#contato">Fale Conosco</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="cabecalho d-flex flex-wrap align-items-center mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-lg-start text-center">
+                    <h1 class="fw-bold">A melhor maneira de Escalar sua gestão</h1>
+                    <p class="lead mt-3">Tenha o controle da sua escala de trabalho ou dos seus colaboradores na palma
+                        da mão.</p>
+                    <a href="#planos" class="btn-saibaMais mt-3 ">Ver planos</a>
+                </div>
+                <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                    <img src="assets/img/realistic-computer-monitor-png.webp" alt="Monitor Escalar"
+                        class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- SEÇÃO SOBRE -->
+        <section id="sobre" class="py-5">
+            <div class="container">
+
+                <div class="row align-items-center g-4">
+                    <!-- Texto principal -->
+                    <div class="col-12 col-lg-6">
+                        <h4 class="mb-3">
+                            O sistema completo para otimizar a gestão de turnos e plantões de trabalho
+                        </h4>
+                        <p>
+                            O <strong>Escalar</strong> é um sistema web criado para simplificar e automatizar o controle
+                            de
+                            escalas de trabalho. Ele foi desenvolvido especialmente para instituições e empresas que
+                            desejam organizar seus plantões, gerenciar trocas, férias e atestados de forma totalmente
+                            digital.
+                        </p>
+                        <p>
+                            Com uma interface intuitiva e moderna, o Escalar oferece uma experiência fluida para
+                            gestores e
+                            colaboradores. As escalas são geradas automaticamente, as solicitações são centralizadas em
+                            um único painel
+                            e as notificações mantêm todos atualizados em tempo real.
+                        </p>
+                        <p>
+                            Além disso, o sistema garante <strong>transparência e eficiência</strong> em cada processo —
+                            reduzindo falhas,
+                            eliminando planilhas manuais e fortalecendo a comunicação entre equipe e coordenação.
+                        </p>
+                        <ul class="mt-3 lista">
+                            <li> Gestão de pessoal centralizada
+                                e digital</li>
+                            <li> Escalas automatizadas e
+                                notificações inteligentes</li>
+                            <li> Integração com Google Calendar
+                                e relatórios completos</li>
+                        </ul>
+                    </div>
+
+                    <!-- Imagem ou vídeo -->
+                    <div class="col-12 col-lg-6 text-center">
+                        <!-- Espaço para adicionar imagem ou vídeo -->
+                        <div class="ratio ratio-16x9 shadow-lg rounded overflow-hidden">
+                            <!-- Substitua o src abaixo por uma imagem ou vídeo real -->
+                            <video autoplay muted loop class="w-100 h-100 object-fit-cover">
+                                <source src="assets/img/videoTest.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <!-- Você também pode trocar o bloco acima por:
+        <img src="assets/img/dashboard-escalar.png" alt="Painel Escalar" class="img-fluid rounded shadow-lg"> -->
+                    </div>
+                </div>
+
+                <!-- Segunda linha com imagens extras (opcional) -->
+                <div class="row mt-5 text-center g-4">
+                    <div class="col-12 col-sm-6 col-lg-3 ">
+                        <img src="assets/img/escalarExemplo.png" alt="App Escalar" class="img-fluid rounded shadow-sm evidencia">
+                        <p class="mt-2 fw-semibold" style="color: var(--azul);">Acesso rápido em qualquer dispositivo</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <img src="assets/img/escalarExemplo.png" alt="Dashboard"
+                            class="img-fluid rounded shadow-sm evidencia">
+                        <p class="mt-2 fw-semibold" style="color: var(--azul);">Painel administrativo intuitivo</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <img src="assets/img/escalarExemplo.png" alt="Visualização de escalas"
+                            class="img-fluid rounded shadow-sm evidencia">
+                        <p class="mt-2 fw-semibold" style="color: var(--azul);">Visualização completa das escalas</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <img src="assets/img/escalarExemplo.png" alt="Equipe Escalar" class="img-fluid rounded shadow-sm evidencia">
+                        <p class="mt-2 fw-semibold" style="color: var(--azul);">Gestão de pessoas com transparência e rapidez</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BLOCO SOBRE PERSONALIZAÇÃO -->
+        <section class="py-5" style="background-color: #00476C;">
+            <div class="container text-light">
+                <div class="row align-items-center g-5">
+
+                    <!-- Imagem ou vídeo -->
+                    <div class="col-12 col-lg-6 text-center">
+                        <div class="ratio ratio-16x9 shadow-lg rounded overflow-hidden">
+                            <!-- Você pode trocar por uma imagem ilustrativa -->
+                            <img src="assets/img/escalarExemplo.png" alt="Personalização do Escalar"
+                                class="img-fluid object-fit-cover">
+                        </div>
+                    </div>
+
+                    <!-- Texto -->
+                    <div class="col-12 col-lg-6">
+                        <h3 class="fw-bold mb-3 text-white">Personalização que se adapta à sua realidade</h3>
+                        <p class="mb-3">
+                            Cada empresa tem suas próprias rotinas, regras e fluxos internos — e o
+                            <strong>Escalar</strong> foi projetado
+                            para se adaptar a todas elas. Com o plano de personalização, o sistema pode ser moldado
+                            exatamente de acordo
+                            com as necessidades da sua equipe.
+                        </p>
+                        <p class="mb-3">
+                            Adicione módulos exclusivos, altere cores e identidade visual, integre com sistemas
+                            internos, configure
+                            permissões específicas e receba relatórios personalizados para o seu negócio. Tudo isso com
+                            suporte técnico
+                            especializado para garantir uma experiência fluida e otimizada.
+                        </p>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="bi bi-check-circle-fill me-2 text-info"></i> Adaptação visual: cores, logotipo
+                                e layout da empresa</li>
+                            <li><i class="bi bi-check-circle-fill me-2 text-info"></i> Módulos e funções sob demanda
+                            </li>
+                            <li><i class="bi bi-check-circle-fill me-2 text-info"></i> Integrações com sistemas internos
+                            </li>
+                            <li><i class="bi bi-check-circle-fill me-2 text-info"></i> Relatórios e métricas
+                                customizadas</li>
+                        </ul>
+                        <div class="mt-4">
+                            <a href="#planos" class="btn btn-outline-light px-4 py-2 rounded-pill">
+                                Conheça o plano Personalizado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- ÍCONES DE FUNCIONALIDADE -->
+        <section class="py-5 text-center container">
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <i class="bi bi-layout-text-window-reverse feature-icon"></i>
+                    <p>Design Intuitivo</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <i class="bi bi-people feature-icon"></i>
+                    <p>Gestão de Equipes</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <i class="bi bi-calendar2-check feature-icon"></i>
+                    <p>Escalas Automatizadas</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <i class="bi bi-bell feature-icon"></i>
+                    <p>Notificações Inteligentes</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE PLANOS -->
+        <section id="planos" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5 fw-bold">Nossos Planos</h2>
+                <div class="row g-4">
+                    <!-- Equipes -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="container-branco text-center h-100">
+                            <h4>Equipes</h4>
+                            <p>Ideal para quem está começando a organizar escalas de forma simples e eficiente.</p>
+                            <h5>R$79,90 / mês</h5>
+                            <ul class="text-start mt-3">
+                                <li>Atribuição de turnos e horários fixos</li>
+                                <li>Visualização semanal e mensal</li>
+                                <li>Escala individual por colaborador</li>
+                            </ul>
+                            <a href="https://wa.me/5534998378074?text=Olá! Tenho interesse no *Plano Equipes* do Escalar e gostaria de saber mais sobre as funcionalidades."
+                                class="btn btn-saibaMais2 mt-3" target="_blank">
+                                Saiba Mais
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Empresas -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="container-branco text-center h-100 border" style="border:solid 1px #00476C !important;">
+                            <span class="badge maisPopular position-absolute ms-5 ">Mais popular</span>
+                            <h4>Empresas</h4>
+                            <p>Mais controle e automação nos processos de gestão.</p>
+                            <h5>R$179,90 / mês</h5>
+                            <ul class="text-start mt-3">
+                                <li>Tudo do Plano Equipes</li>
+                                <li>Escala automatizada</li>
+                                <li>Trocas de turnos e notificações automáticas</li>
+                            </ul>
+                            <a href="https://wa.me/5534998378074?text=Olá! Tenho interesse no *Plano Empresas* do Escalar e gostaria de saber mais sobre as funcionalidades."
+                                class="btn btn-saibaMais2 mt-3" target="_blank">
+                                Saiba Mais
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Corporativo -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="container-branco text-center h-100">
+                            <h4>Corporativo</h4>
+                            <p>Projetado para organizações que precisam de controle total.</p>
+                            <h5>R$299,90 / mês</h5>
+                            <ul class="text-start mt-3">
+                                <li>Tudo do Plano Empresas</li>
+                                <li>Usuários ilimitados</li>
+                                <li>Relatórios avançados e exportáveis</li>
+                            </ul>
+                            <a href="https://wa.me/5534998378074?text=Olá! Tenho interesse no *Plano Corporativo* do Escalar e gostaria de saber mais sobre as funcionalidades."
+                                class="btn btn-saibaMais2 mt-3" target="_blank">
+                                Saiba Mais
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Personalizado -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="container-branco text-center h-100"
+                            style="background-color: var(--azul); color: var(--branco);">
+                            <h4 style="color: var(--branco);">Personalizado</h4>
+                            <p>Solução sob medida para sua empresa.</p>
+                            <h5 style="color: var(--branco);">A partir de R$689,90 / mês</h5>
+                            <ul class="text-start mt-3">
+                                <li class="branco">Todas as funcionalidades do Corporativo</li>
+                                <li class="branco">Personalização total do sistema</li>
+                                <li class="branco">Suporte técnico dedicado</li>
+                            </ul>
+                            <a href="https://wa.me/5534998378074?text=Olá! Tenho interesse no *Plano Personalizado* do Escalar e gostaria de saber mais sobre as funcionalidades."
+                                class="btn btn-saibaMais mt-3" target="_blank">
+                                Fazer orçamento
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORMULÁRIO -->
+        <section id="contato" class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4">
+                        <h3 class="mb-3">Vamos começar?</h3>
+                        <p>Entre em contato conosco e descubra o plano ideal para a sua empresa ou solicite uma versão
+                            personalizada do Escalar.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="container-form shadow">
+                            <h5>Fale conosco</h5>
+                            <input type="text" class="form-control mb-3" placeholder="Nome Completo">
+                            <input type="email" class="form-control mb-3" placeholder="E-mail">
+                            <input type="tel" class="form-control mb-3" placeholder="Telefone">
+                            <textarea class="form-control mb-3" rows="4" placeholder="Mensagem"></textarea>
+                            <div class="text-center">
+                                <button class="btn-saibaMais">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-light pt-5 pb-3" style="background-color: #00476C;">
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Coluna 1: Logo e breve descrição -->
+                <div class="col-12 col-md-4">
+                    <img src="assets/img/escalar-removebg-preview.png" alt="Escalar" width="130" class="mb-3">
+                    <p class="small text-light-50">
+                        Sistema completo de gerenciamento de escalas de trabalho desenvolvido para otimizar
+                        a rotina de equipes.
+                    </p>
+                    <p class="small mb-0"><i class="bi bi-geo-alt"></i> Patos de Minas - MG</p>
+                </div>
+
+                <!-- Coluna 2: Links de navegação -->
+                <div class="col-6 col-md-3">
+                    <h6 class="fw-bold mb-3 text-uppercase">Navegação</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#sobre"
+                                class="text-light text-decoration-none small d-block mb-2 hover-link">Sobre</a></li>
+                        <li><a href="#planos"
+                                class="text-light text-decoration-none small d-block mb-2 hover-link">Planos</a></li>
+                        <li><a href="#contato"
+                                class="text-light text-decoration-none small d-block mb-2 hover-link">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Funcionalidades -->
+                <div class="col-6 col-md-3">
+                    <h6 class="fw-bold mb-3 text-uppercase">Funcionalidades</h6>
+                    <ul class="list-unstyled">
+                        <li><span class="small d-block mb-2">Gestão de pessoal</span></li>
+                        <li><span class="small d-block mb-2">Escalas automatizadas</span></li>
+                        <li><span class="small d-block mb-2">Planejamento pessoal</span></li>
+                        <li><span class="small d-block mb-2">Opções personalizadas</span></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 4: Desenvolvedores -->
+                <div class="col-12 col-md-2">
+                    <h6 class="fw-bold mb-3 text-uppercase">Desenvolvedores</h6>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">
+                            <a href="" style="color: #fff;">Júlia Eduarda</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="" style="color: #fff;">Pedro Mello</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="" style="color: #fff;">Laís Santana</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="" style="color: #fff;">Sara Ferreira</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="" style="color: #fff;">Geizilane Melo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="border-light opacity-25 my-4">
+
+            <!-- Linha final -->
+            <div class="text-center">
+                <p class="small mb-1">© 2025 Escalar. Todos os direitos reservados.</p>
+                <p class="small text-light-50 mb-0">
+                    Desenvolvido com ❤️ pela equipe Escalar | Projeto UNIPAM
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
