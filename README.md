@@ -89,7 +89,7 @@ Se quiser saber mais sobre o projeto, solicitar demonstrações ou propor parcer
 📧 **E-mail:** [juliaeduardafernandes123@gmail.com]  
 💼 **LinkedIn:** [https://www.linkedin.com/in/julia-eduarda-fernandes](https://www.linkedin.com/in/julia-eduarda-fernandes-silva-443a22280)  
 🐙 **GitHub:** [@juliaed](https://github.com/julia-ed2)  
-🌐 **Site:** [https://www.escalar.git.io](https://julia-ed2.github.io/landingPage-Escalar/) *(ou o link oficial da landing page, se disponível)*  
+🌐 **Site:** [https://www.escalar.git.io](https://julia-ed2.github.io/landingPage-Escalar/)  
 
 ---
 
