@@ -87,9 +87,9 @@ A landing page foi **concebida e desenvolvida integralmente por [seu nome]**, re
 Se quiser saber mais sobre o projeto, solicitar demonstrações ou propor parcerias, entre em contato pelos canais abaixo:
 
 📧 **E-mail:** [juliaeduardafernandes123@gmail.com]  
-💼 **LinkedIn:** [https://www.linkedin.com/in/seulinkedin](https://www.linkedin.com/in/seulinkedin)  
-🐙 **GitHub:** [@seuusuario](https://github.com/julia-ed2)  
-🌐 **Site:** [https://www.escalar.com.br](https://www.escalar.com.br) *(ou o link oficial da landing page, se disponível)*  
+💼 **LinkedIn:** [https://www.linkedin.com/in/julia-eduarda-fernandes](https://www.linkedin.com/in/julia-eduarda-fernandes-silva-443a22280)  
+🐙 **GitHub:** [@juliaed](https://github.com/julia-ed2)  
+🌐 **Site:** [https://www.escalar.git.io](https://julia-ed2.github.io/landingPage-Escalar/) *(ou o link oficial da landing page, se disponível)*  
 
 ---
 
